@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script>
+       // Initialize Firebase
+       var config = {
+          apiKey: "AIzaSyD6v4PO2AjyEO1qE8caWXjH0aE7e-HYZZI",
+          authDomain: "board-4e620.firebaseapp.com",
+          databaseURL: "https://board-4e620.firebaseio.com",
+          projectId: "board-4e620",
+          storageBucket: "board-4e620.appspot.com",
+          messagingSenderId: "778413098456"
+       };
+       firebase.initializeApp (config);
+    </script>
+</head>
+<body>
+<div>
+
+    <!-- Splash screen -->
+    <section id="page-splash">
+        <h3 class="logo">Вход на сайт</h3>
+        <div>
+            <button id="sign-in-button">Вход</button>
+        </div>
+    </section>
+
+    <button id="sign-out-button" class="button-exit">Выход</button>
+
+
+    <!-- Header section containing logo and menu -->
+    <header>
+
+        HEADER
+    </header>
+
+    <main>
+
+        POSTS
+
+        <!-- Show a list of recent posts -->
+        <section id="recent-posts-list" style="display:none">
+            <div class="posts-container mdl-cell mdl-cell--12-col mdl-grid">
+            </div>
+        </section>
+
+        <!-- Show the list of user's posts -->
+        <section id="user-posts-list" style="display:none">
+            <div class="posts-container mdl-cell mdl-cell--12-col mdl-grid">
+            </div>
+        </section>
+
+        <!-- Show the list of top user's posts -->
+        <section id="top-user-posts-list" style="display:none">
+            <div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script src="js/cod.js"></script>
+</body>
+</html>

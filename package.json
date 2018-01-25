@@ -1,0 +1,21 @@
+{
+  "name": "board",
+  "version": "1.0.0",
+  "description": "контакты первого уровня",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almaz73/board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp-less": "^3.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.10"
+  }
+}
